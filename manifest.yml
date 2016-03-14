@@ -1,0 +1,9 @@
+---
+applications:
+- name: React Status Demo
+  host: react-status-demo
+  domain: mybluemix.net
+  memory: 256M
+  instances: 1
+  path: .
+  command: npm start
